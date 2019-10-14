@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LinkinPark website</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+    <!-- Google font "Ubuntu" -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
 </head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
 <body>
+
+    <!-- Navigation bar -->
+
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Linkin Park</a>
 
@@ -28,7 +36,7 @@
         </div>
     </nav>
 
-    <article class="container mt-3">
+    <div class="container-fluid history-container">
         <div class="row">
             <div class="col-12">
                 <section class="About Us text-center">
@@ -67,14 +75,13 @@
                 </section>
             </div>
         </div>
+    </div>
 
-        <hr>
-
-
+    <div class=" container members-container">
         <section class="Band members text-center">
             <div class="row">
                 <div class="col-12 col-md-12 my-4">
-                    <h3 class="text-uppercase"><i class="fas fa-users"></i> Current Linkin Park members</h3>
+                    <h3 class="text-uppercase"><i class="fas fa-users d-none d-sm-inline"></i> Current Linkin Park members</h3>
                 </div>
             </div>
             <div class="col-12 col-md-12">
@@ -88,10 +95,12 @@
                 </ul>
             </div>
         </section>
+    </div>
 
+    <div class="container discography-container">
         <section class="Band discography text-center">
             <div class="col-12 col-md-12 my-4">
-                <h3 class="text-uppercase"><i class="fas fa-compact-disc"></i> Linkin Park discography</h3>
+                <h3 class="text-uppercase"><i class="fas fa-compact-disc d-none d-sm-inline"></i> Linkin Park discography</h3>
             </div>
             <div class="col-12 col-md-12">
                 <ul class="list-group">
@@ -106,8 +115,7 @@
                 </ul>
             </div>
         </section>
-
-    </article>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
