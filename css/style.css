@@ -3,14 +3,54 @@ body {
 }
 
 .history-container {
-
     background: url(../images/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .members-container {}
 
 .discography-container {}
+
+/* Block-divider */
+
+.block-divider {
+    width: 500px;
+    height: 5px;
+    border: 0;
+    background-color: #CA2D0B;
+}
+
+/* Jumbotron */
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-paragraph {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
