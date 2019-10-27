@@ -2,9 +2,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.container-wrapper {
-    
-}
+.container-wrapper {}
 
 .container-wrapper--blue {
     background-color: #3D3FD1;
@@ -17,7 +15,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     top: 40px;
     display: flex;
     align-items: center;
@@ -25,7 +23,7 @@ body {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    
+
     position: relative;
 }
 
@@ -35,7 +33,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -54,7 +52,8 @@ body {
     text-align: center;
 }
 
-.page-header h1, h3 {
+.page-header h1,
+h3 {
     margin-top: 0;
 }
 
@@ -74,6 +73,12 @@ body {
     padding-bottom: 60px;
 }
 
+/* Discogrpahy container */
+
+.discography-container {
+    padding-bottom: 60px;
+}
+
 /* Navbar */
 
 .navalert-container {
@@ -89,7 +94,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
     box-shadow: 0 0 25px 0 black;
 }
 
@@ -104,6 +109,21 @@ body {
 /* Paragraphs of About Us container */
 
 
+/* Members list */
+
+.members-list {
+    text-align: center;
+    list-style: inside;
+    list-style-type: disc;
+}
+
+/* Discogrpahy list */
+
+.disks-list {
+    text-align: center;
+    list-style: inside;
+    list-style-type: square;
+}
 
 /* Jumbotron */
 

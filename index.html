@@ -21,30 +21,34 @@
 <body>
 
     <!-- Navigation bar -->
+    
+    <header>
+        <div class="container-fluid navalert-container">
+            <nav class="navbar navbar-light navbar-expand-sm" style="background-color: #3D3FD1">
+                <a href="/" class="navbar-brand">Linkin Park</a>
 
-    <div class="container-fluid navalert-container">
-        <nav class="navbar navbar-light navbar-expand-sm" style="background-color: #3D3FD1">
-            <a href="/" class="navbar-brand">Linkin Park</a>
-
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/Photo library">Photo library</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/Audio and Video library">Audio and Video library</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/Contact Us">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/Photo library">Photo library</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/Audio and Video library">Audio and Video library</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/Contact Us">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Band's history section -->
 
     <div class="container-fluid history-container">
         <div class="opaque-overlay">&nbsp;</div>
         <section class="about us">
             <div class="row">
-                <div class="col-12 page-header">
+                <div class="col-sm-12 col-lg-12 page-header">
                     <h1 class="text-uppercase jumbotron-header page-header">Glorious way up to olympus</h1>
                     <hr class="block-divider">
                 </div>
@@ -105,50 +109,65 @@
     </div>
     </div>
 
+
+    <!-- Members -->
+
     <div class="container-wrapper">
         <div class="container members-container">
-            <section class="Band members text-center">
+            <section class="Band memebers text-center">
                 <div class="row">
                     <div class="col-12 col-md-12 my-4">
                         <h3 class="text-uppercase page-header"><i class="fas fa-users d-none d-sm-inline"></i> Current Linkin Park members</h3>
                     </div>
                 </div>
-                <div class="col-12 col-md-12">
-                    <ul class="list-group">
-                        <li class="list-group-item">Chester Bennington – lead vocals</li>
-                        <li class="list-group-item">Rob Bourdon – drums, percussion</li>
-                        <li class="list-group-item">Brad Delson – lead guitar</li>
-                        <li class="list-group-item">David "Phoenix" Farrell – bass guitar</li>
-                        <li class="list-group-item">Joe Hahn – turntables, sampling, programming</li>
-                        <li class="list-group-item">Mike Shinoda – vocals, rapping, keyboards, rhythm guitar</li>
-                    </ul>
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <ul class="members-list">
+                            <li class="members-list-item">Chester Bennington – lead vocals</li>
+                            <li class="members-list-item">Rob Bourdon – drums, percussion</li>
+                            <li class="members-list-item">Brad Delson – lead guitar</li>
+                            <li class="members-list-item">David "Phoenix" Farrell – bass guitar</li>
+                            <li class="members-list-item">Joe Hahn – turntables, sampling, programming</li>
+                            <li class="members-list-item">Mike Shinoda – vocals, rapping, keyboards, rhythm guitar</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </div>
     </div>
 
+    <!--Discography -->
 
     <div class="container-wrapper container-wrapper--blue">
         <div class="container discography-container">
             <section class="Band discography text-center">
-                <div class="col-12 col-md-12">
-                    <h3 class="text-uppercase page-header"><i class="fas fa-compact-disc d-none d-sm-inline"></i> Linkin Park discography</h3>
+                <div class="row">
+                    <div class="col-12 col-md-12 my-4">
+                        <h3 class="text-uppercase page-header"><i class="fas fa-compact-disc d-none d-sm-inline"></i> Linkin Park discography</h3>
+                    </div>
                 </div>
-                <div class="col-12 col-md-12">
-                    <ul class="list-group">
-                        <li class="list-group-item">CHybrid Theory (2000)</li>
-                        <li class="list-group-item">Reanimation (remix album) (2002)</li>
-                        <li class="list-group-item">Meteora (2003)</li>
-                        <li class="list-group-item">Collision Course (with Jay-Z) (2004)</li>
-                        <li class="list-group-item">Minutes to Midnight (2007)</li>
-                        <li class="list-group-item">A Thousand Suns (2010)</li>
-                        <li class="list-group-item">Living Things (2012)</li>
-                        <li class="list-group-item">The Hunting Party (2014)</li>
-                    </ul>
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <ul class="disks-list">
+                            <li class="disks-list-item">CHybrid Theory (2000)</li>
+                            <li class="disks-list-item">Reanimation (remix album) (2002)</li>
+                            <li class="disks-list-item">Meteora (2003)</li>
+                            <li class="disks-list-item">Collision Course (with Jay-Z) (2004)</li>
+                            <li class="disks-list-item">Minutes to Midnight (2007)</li>
+                            <li class="disks-list-item">A Thousand Suns (2010)</li>
+                            <li class="disks-list-item">Living Things (2012)</li>
+                            <li class="disks-list-item">The Hunting Party (2014)</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </div>
     </div>
+
+    <footer>
+
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
