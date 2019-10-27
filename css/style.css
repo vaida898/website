@@ -1,5 +1,52 @@
+
 body {
     font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 25px 0 black;
+}
+
+.brand {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
+/* Page header */
+
+.page-header {
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.members-header {
+    margin-top: 0;
+    font-weight: bold;
+    text-decoration: underline;
+    
 }
 
 .container-wrapper {}
@@ -11,10 +58,11 @@ body {
 
 .history-container {
     background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    
 
     top: 40px;
     display: flex;
@@ -43,19 +91,6 @@ body {
 }
 
 
-/* Page header */
-
-.page-header {
-    margin-top: 30px;
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h1,
-h3 {
-    margin-top: 0;
-}
 
 /* Block-divider */
 
@@ -79,32 +114,7 @@ h3 {
     padding-bottom: 60px;
 }
 
-/* Navbar */
 
-.navalert-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
-
-.navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 0 25px 0 black;
-}
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.navbar-inner {
-    background: transparent;
-}
 
 /* Paragraphs of About Us container */
 
