@@ -8,12 +8,12 @@
     <title>LinkinPark website</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/642fee131a.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <!-- Google font "Ubuntu" -->
 
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 
 </head>
@@ -25,17 +25,18 @@
     <header>
         <div class="container-fluid navalert-container">
             <nav class="navbar navbar-light navbar-expand-sm" style="background-color: #3D3FD1">
-                <a href="index.html" class="brand">Linkin Park</a>
-
+                <a target="_blank" href="#">
+                    <i class="brand">LinkinPark</i>
+                </a>
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
-                <div  id="navbarNavDropdown" class="collapse navbar-collapse">
+                <div id="navbarNavDropdown" class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="/Photo library">Photo library</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="/Audio and Video library">Audio and Video library</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="/Contact Us">Contact Us</a></li>
+                        <li class="nav-item mr-2 hvr-glow"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item mr-2 hvr-glow"><a class="nav-link" href="/Photo library">Photo library</a></li>
+                        <li class="nav-item mr-2 hvr-glow"><a class="nav-link" href="/Audio and Video library">Audio and Video library</a></li>
+                        <li class="nav-item mr-2 hvr-glow"><a class="nav-link" href="/Contact Us">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -164,8 +165,52 @@
         </div>
     </div>
 
-    <footer>
 
+    <!--Footer-->
+
+
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="sub-style">Logo</h5>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="sub-style">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                                <i class="fab fa-facebook-square" aria-hidden="true">
+                                     <span class="sr-only">Facebook</span>
+                                </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter-square" aria-hidden="true">
+                                <span class="sr-only">Twitter</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-instagram" aria-hidden="true">
+                                <span class="sr-only">Instagram</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube" aria-hidden="true">
+                                <span class="sr-only">Youtube</span>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="sub-style">Contact Us</h5>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

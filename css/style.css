@@ -24,6 +24,7 @@ body {
 
 .brand {
     font-weight: bold;
+    text-decoration: none;
     color: black;
     font-size: 30px;
     padding-right: 50px;
@@ -154,3 +155,36 @@ body {
 .jumbotron-text {
     color: #C2C2C2;
 }
+
+/* Footer */
+
+.sub-style {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: white;
+    min-height: 50px;
+    background-color: #221F25;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    color:#C2C2C2;
+    background: #221F25;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #3D3FD1;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
