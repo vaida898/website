@@ -1,9 +1,9 @@
-
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Navbar */
+/* Navbar -----------------------------------*/
 
 .navalert-container {
     position: fixed;
@@ -34,7 +34,7 @@ body {
     background: transparent;
 }
 
-/* Page header */
+/* Page header ----------------------*/
 
 .page-header {
     margin-top: 30px;
@@ -43,19 +43,9 @@ body {
     text-align: center;
 }
 
-.members-header {
-    margin-top: 0;
-    font-weight: bold;
-    text-decoration: underline;
-    
-}
 
-.container-wrapper {}
 
-.container-wrapper--blue {
-    background-color: #3D3FD1;
-    color: black;
-}
+/* Band's history ----------------------*/
 
 .history-container {
     background: url(../images/background.jpg) no-repeat center center fixed;
@@ -63,17 +53,18 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
 
     top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
 
     position: relative;
+    box-shadow: 0 0 25px 0 black
 }
 
 .opaque-overlay {
@@ -86,14 +77,8 @@ body {
 }
 
 
-.discography-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
-
-
-/* Block-divider */
+/* Block-divider ---------------------------*/
 
 .block-divider {
     width: 500px;
@@ -102,41 +87,94 @@ body {
     background-color: #7A7CE7;
 }
 
-/* Members container*/
+
+
+/* Members container---------------------*/
+
+.members-header {
+    margin-top: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px #9193FF;
+}
 
 .members-container {
     padding-top: 60px;
     padding-bottom: 60px;
+    box-shadow: 0 0 25px 0 black;
+    width: 100%;
+    border: 0;
 }
 
-/* Discogrpahy container */
-
-.discography-container {
-    padding-bottom: 60px;
-}
-
-
-
-/* Paragraphs of About Us container */
-
-
-/* Members list */
-
-.members-list {
-    text-align: center;
-    list-style: inside;
+ul .members-list {
+    text-align: left;
+    list-style-position: inside;
+    vertical-align: middle;
     list-style-type: disc;
 }
 
-/* Discogrpahy list */
+.members-list {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 1px 1px #9193FF;
+}
 
-.disks-list {
-    text-align: center;
-    list-style: inside;
+.members-list li:before {
+    content: "";
+    margin-left: 30px;
+}
+
+
+/* Discogrpahy container -------------------*/
+
+.container-wrapper--blue {
+    background-color: #3D3FD1;
+    color: black;
+}
+
+.discs-header {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px #C5C5CC;
+}
+
+
+.discography-container {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    box-shadow: 0 0 25px 0 black;
+    width: 100%;
+    border: 0;
+}
+
+ul .discs-list {
+    text-align: right;
+    list-style-position: inside;
+    vertical-align: middle;
     list-style-type: square;
 }
 
-/* Jumbotron */
+.discs-list {
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 1px 1px #C5C5CC;
+}
+
+.discs-list li:before {
+    content: "";
+    margin-left: 30px;
+}
+
+
+/* Jumbotron -------------------------------*/
 
 .jumbotron-header {
     color: white;
@@ -154,26 +192,47 @@ body {
 
 .jumbotron-text {
     color: #C2C2C2;
+    font-size: 20px;
 }
 
-/* Footer */
+/* Footer ------------------------------*/
 
-.sub-style {
+#footer .main-footer {
+    padding: 30px 0;
+    background-color: black;
+}
+
+.footer-logo {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    padding: 0;
+    background-color: black;
+}
+
+.quick-links {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
-    color: white;
     min-height: 50px;
-    background-color: #221F25;
-    margin: 0;
-    padding: 0;
+    color: #C2C2C2;
+    margin-left: 30px;
+}
+
+ul.menu-link li {
+    list-style-type: none !important;
+}
+
+.contact {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    min-height: 50px;
+    color: #C2C2C2;
+    margin-left: 30px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    color:#C2C2C2;
-    background: #221F25;
+    margin: 3px;
+    color: #C2C2C2;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -187,4 +246,3 @@ body {
 #footer-details {
     padding: 20px;
 }
-
