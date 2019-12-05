@@ -316,14 +316,16 @@ ul.menu-link li {
 }
 
 #audio {
-    margin-left: 60px;
+    margin-left: 350px;
     padding-right: 30px;
+    text-align: center;
 }
 
-#comment {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400i;
-    margin-left: 60px;
+.comment {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-left: 350px;
     margin-top: 10px;
-    
+    text-align: left;
 }
