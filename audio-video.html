@@ -44,17 +44,50 @@
         </div>
     </header>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-12 col-sm-12 col-xs-12">
-                <h3 class="text-uppercase text-center videos-header">Videos</h3>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+    <section class="bg-videos">
+        <div class="container videos-container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="text-uppercase text-center videos-header">Videos</h1>
+                </div>
+                <div class="video-responsive embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eVTXPUF4Oz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-responsive embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LYU-8IFcDPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-    </div>
+
+    </section>
+
+
+    <section class="bg-audio">
+        <div class="container audio-container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="text-uppercase text-center audios-header">Audio's</h1>
+                </div>
+                <div class="audio-controls">
+                    <audio id="audio" controls>
+                    <source src="./audio/NumbEncore.mp3" type="audio/mpeg">
+                    <source src="./audio/NumbEncore.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+                    <p id="comment"> Linkin Park and Jay-z - Numb Encore</p>
+                    <audio id="audio" controls>
+                    <source src="./audio/Talking.mp3" type="audio/mpeg">
+                    <source src="./audio/Talking.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+                    <audio id="audio" controls>
+                    <source src="./audio/What.mp3" type="audio/mpeg">
+                    <source src="./audio/What.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+                </div>
+            </div>
+    </section>
 
 
     <!--Footer-->

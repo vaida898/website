@@ -251,7 +251,7 @@ ul.menu-link li {
 /* Photos file ------------------------------*/
 
 .pics-container {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 
@@ -263,5 +263,67 @@ ul.menu-link li {
     padding-top: 0;
     margin-top: 20px;
     margin-bottom: 20px;
+
+}
+
+
+/* Audio's and videos file ------------------------------*/
+
+.bg-videos,
+.bg-audio {
+    background-color: #C8C9CF;
+}
+
+.videos-container,
+.audios-container {
+    margin-top: 30px;
+    padding-top: 100px;
+
+}
+
+.videos-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 4px #9193FF;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.audios-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 4px #9193FF;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#audio {
+    margin-left: 60px;
+    padding-right: 30px;
+}
+
+#comment {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400i;
+    margin-left: 60px;
+    margin-top: 10px;
     
 }
