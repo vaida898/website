@@ -64,7 +64,7 @@ body {
     padding-bottom: 40px;
 
     position: relative;
-    box-shadow: 0 0 25px 0 black
+    box-shadow: 0 0 25px 0 black;
 }
 
 .opaque-overlay {
@@ -272,13 +272,12 @@ ul.menu-link li {
 .bg-videos,
 .bg-audio {
     background-color: #C8C9CF;
+    margin: 0;
 }
 
-.videos-container,
-.audios-container {
+.videos-container {
     margin-top: 30px;
     padding-top: 100px;
-
 }
 
 .videos-header {
@@ -306,26 +305,75 @@ ul.menu-link li {
 }
 
 
+.audios-container {
+    margin-left: 60px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    position: relative;
+    width: 100%;
+}
+
+
 .audios-header {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-shadow: 2px 4px #9193FF;
     color: black;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#audio {
-    margin-left: 350px;
-    padding-right: 30px;
-    text-align: center;
+.audio-controls {
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.comment {
+.titles {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     color: black;
-    margin-left: 350px;
     margin-top: 10px;
     text-align: left;
+}
+
+/* Contact file ------------------------------*/
+
+.contact-container {
+    background-color: #C8C9CF;
+    padding-top: 100px;
+}
+
+.contact-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-shadow: 2px 4px #9193FF;
+    margin-bottom: 20px;
+}
+
+.form-center {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #C2C2C2;
+    background-color: #4749E2;
+    border-radius: 12px;
+
+}
+
+
+/* Media Querie ----------------- morning */
+
+@media(min-width: 992px) {
+    .form-center {
+        margin-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
